@@ -6,7 +6,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <header>
 <nav>
 <ul>
@@ -16,6 +15,6 @@
 </nav>
 </header>
 <body>
-    <h1>Sveiks Laravel!</h1>
+<h1>Iphone</h1>
 </body>
 </html>
