@@ -11,6 +11,7 @@
 <ul>
 <li><a href="/">Sveiki</a></l1>
 <li><a href="iphone">Iphone</a></l1>
+<li><a href="todos">Visi uzdevumi</a></l1>
 </ul>
 </nav>
 </header>

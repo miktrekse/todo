@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Veicamie uzdevumi</title>
+    <title>Dienasgramata</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <x-navigation></x-navigation>
-<li><a href="/todos/create">Uzdevumu create</a></li>
-<h1>Visi veicamie uzdevumi</h1>
+<li><a href="/diaries/create">Dienasgramatas create</a></li>
+<h1>Dienasgramata</h1>
 <ul>
-  @foreach ($todos as $todo)
-  <li><a href="/todos/{{ $todo->id }}">{{ $todo->content }}</a></li>
+  @foreach ($diaries as $diary)
+    <li><a href="/diaries/{{ $diary->id }}">{{ $diary->title }}</li>
   @endforeach
 </ul>
 </body>
